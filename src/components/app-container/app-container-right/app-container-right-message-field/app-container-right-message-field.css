@@ -1,0 +1,19 @@
+.icon-paper-clip,
+.icon-paper-plane {
+
+    border: none;
+    width: 50px !important;
+    padding: 12px 0;
+    cursor: pointer;
+    color: #f5f5f5;
+}
+
+.icon-paper-clip {
+    float: right;
+    color: #bfbfbf;
+}
+
+.icon-paper-plane {
+    float: left;
+    background: #32465a;
+}

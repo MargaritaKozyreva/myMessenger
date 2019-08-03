@@ -1,0 +1,57 @@
+.left-part-container {
+    color: white;
+    background: #2c3e50;
+    width: 30%;
+    position: relative;
+}
+
+.person-info {
+    padding: 100px 0 0 0;
+    display: block;
+    line-height: initial !important;
+}
+
+.person-name {
+    font-weight: 700
+}
+
+.person-photo {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    align-self: center;
+}
+
+.person-card {
+    display: flex;
+    margin-top: 10px;
+}
+
+.person-comment {
+    white-space: nowrap;
+    width: 325px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.person-card span.online {
+    background: #2ecc71;
+}
+
+.person-card span.offline {
+    background: tomato;
+}
+.person-card span {
+    position: absolute;
+    /* right: 0; */
+    /* top: 10px; */
+    margin: 20px 0px 0px 0px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 2px solid #2c3e50;
+    background: #95a5a6;
+    z-index: 1;
+}
